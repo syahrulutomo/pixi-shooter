@@ -114,6 +114,13 @@ document.querySelector("body").addEventListener("keydown", function(e){
   }
 })
 
+document.querySelector("#fire").addEventListener("click", function(e){  
+    shoot(bunny.rotation, {
+      x: bunny.position.x+Math.cos(bunny.rotation)*20,
+      y: bunny.position.y+Math.sin(bunny.rotation)*20
+    });
+})
+
 var bullets = []; 
 var enemies = []; 
 var bulletSpeed = 5;

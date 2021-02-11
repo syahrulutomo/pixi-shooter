@@ -21,7 +21,6 @@ body {
 }
 
 #fire {
-    display: none;
     width: 120px;
     height: 120px;
     background-image: url('../images/shoot.png');
