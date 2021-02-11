@@ -21,15 +21,15 @@ body {
 }
 
 #fire {
-    width: 120px;
-    height: 120px;
+    width: 76px;
+    height: 76px;
     background-image: url('../images/shoot.png');
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 100%;
     margin-bottom:20px;
     position: absolute;
-    bottom: -60px;
-    right: 50px;
+    bottom: -45px;
+    right: 20px;
     z-index: 100;
 }
